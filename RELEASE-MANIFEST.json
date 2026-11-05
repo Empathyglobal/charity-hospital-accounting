@@ -1,0 +1,162 @@
+{
+  "name": "Charity Hospital Accounting",
+  "version": "0.1.0",
+  "date": "2026-11-05",
+  "scope": "Early local-only source toolkit; no production backend",
+  "tests": {
+    "synthetic_node_tests": 16,
+    "passed": 16,
+    "clean_install": "npm ci --ignore-scripts succeeded; all 16 final-source tests passed",
+    "first_party_syntax": "passed",
+    "identity_and_secret_pattern_scan": "passed",
+    "browser_qa": "not performed",
+    "pdfjs_version": "6.5.438",
+    "official_tarball_sha512": "matches package-lock integrity",
+    "vendor_bytes": "match official package legacy builds and license",
+    "npm_audit": "zero vulnerabilities",
+    "npm_registry_signatures_and_attestations": "verified for all 4 clean-installed packages",
+    "independent_review": "passed for experimental synthetic-data source scope; browser untested",
+    "github_ci": "Read-only Node 24 workflow with verified official action commit pins; result available in repository Actions"
+  },
+  "manifest_excludes_itself": true,
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 605,
+      "sha256": "892c3ae3e60aab748b78998a808a2fcee0963b67779fdc76d40710cbf5e050ea",
+      "license": "MIT"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 66,
+      "sha256": "ad862a7399a160aef8b7cdf7d2da83badeb76109aeac598219d46f61c046909f",
+      "license": "MIT"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1076,
+      "sha256": "8efcdafaeebb790d6dc47b23afc02c35e16d3dd310b65fcb44f17676588b7128",
+      "license": "MIT"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4546,
+      "sha256": "489adddc0c2f4d4d55b58f0325f5f028f3144fb9b22c68c03d1bb1f0910de974",
+      "license": "MIT"
+    },
+    {
+      "path": "RELEASE_REVIEW.md",
+      "bytes": 1899,
+      "sha256": "827c166c5ea1798e059d5c903eb453801dc781c5f5528cb50d3b3d5d2fffc2af",
+      "license": "MIT"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1372,
+      "sha256": "ffecb3764657d3234ebb8b967440161294043c4b67aab9d67fb5852a3b37f804",
+      "license": "MIT"
+    },
+    {
+      "path": "index.html",
+      "bytes": 955,
+      "sha256": "8e46046b38d4958e2f551a45cb984082e0d6b4d64d9734213ce224ef39e3e67c",
+      "license": "MIT"
+    },
+    {
+      "path": "main.mjs",
+      "bytes": 314,
+      "sha256": "093831be36fbc810be4d30dc41bccf2a8ee662f6ca33c89e1f4a6fd9c2adbb5a",
+      "license": "MIT"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 8628,
+      "sha256": "fa1ff1e2a9dc9ae76bd040fe52c1b33749ed50f93fcd8ef69731de4e844f93e6",
+      "license": "MIT"
+    },
+    {
+      "path": "package.json",
+      "bytes": 405,
+      "sha256": "bf54d8861fc227bc6016b758a1478207789d06336ea4025c7005c0d21de3c4bc",
+      "license": "MIT"
+    },
+    {
+      "path": "server.mjs",
+      "bytes": 1356,
+      "sha256": "22de3140039d4933e2d842c4ffffe19eacafbaba79e4889e52fc0d2b631994d9",
+      "license": "MIT"
+    },
+    {
+      "path": "src/accounting-usd-khr.mjs",
+      "bytes": 12378,
+      "sha256": "789c9c4dc1a2582259a7827968ccb8af115daac36ac92c333babd52a61263683",
+      "license": "MIT"
+    },
+    {
+      "path": "src/money.mjs",
+      "bytes": 1192,
+      "sha256": "5ee6959fa92fadc1e1974c2732a4405d9f0d4fadb8a317ac5074a5bad0a123dd",
+      "license": "MIT"
+    },
+    {
+      "path": "src/pdf-safety.mjs",
+      "bytes": 1116,
+      "sha256": "e4d98df6f930c8f33da1ecc32c3ef92f836998e1b607141884ee2cb5129abb4c",
+      "license": "MIT"
+    },
+    {
+      "path": "src/pharmacy-core.mjs",
+      "bytes": 2903,
+      "sha256": "0dbdab14d2e035ff77ceb8bb39513e79e65d639e54023cafe424681d189c8d47",
+      "license": "MIT"
+    },
+    {
+      "path": "src/pharmacy.mjs",
+      "bytes": 10152,
+      "sha256": "d46ca013e820fd609ae18f3cb8d91e2edcd500eb0c9c472fcd85c7cca007f54f",
+      "license": "MIT"
+    },
+    {
+      "path": "src/vendor/pdf.min.mjs",
+      "bytes": 537769,
+      "sha256": "522ad2c83bc8a0010e7f0cc60d0892b77c8d2bf2c9702dc12288311d94270f42",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "src/vendor/pdf.worker.min.mjs",
+      "bytes": 1327591,
+      "sha256": "b4c8353ded0d88d2e2009574a29eb4e0c3ff7e942ecdf51ef5f71566a9667f31",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "src/vendor/pdfjs-license",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "style.css",
+      "bytes": 1088,
+      "sha256": "59d5cd6de909cbd8ea8addc4adb3d011ef0819eafcceb6c05324601f436c3694",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/core.test.mjs",
+      "bytes": 6216,
+      "sha256": "095ea7f430e5855bb876205525eaf510992fe9971445f535d17ba2a3f5a3ce05",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/pdf.test.mjs",
+      "bytes": 4585,
+      "sha256": "06c982eee0380cb271b5ca89cb334c3ceb660885d70a211855dcb10484c2fc81",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/server.test.mjs",
+      "bytes": 966,
+      "sha256": "318ff6c5a39930ccfd780edacaee7920895ab3861570f495b04a193caac92f9b",
+      "license": "MIT"
+    }
+  ]
+}
